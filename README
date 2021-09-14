@@ -1,0 +1,25 @@
+README
+
+CS169 Project for Spring Quarter 2021 at 11:45am
+
+Project Language: Go
+
+Project: A TCP Chatroom that allows for multiple connections, creation of rooms and communication between each other
+(I had decided not to do Deck of Cards and card games. While working on the Deck of Cards package, I was losing motivation and interest in it and I couldn't decide between multiple card games or AI dealer to go with BlackJack)
+
+The idea of this project was to explore GO, networking and concurrency. Dealing with TCP connections is something that I have only explored once in a past class in c.
+
+Doing this was interesting in exploring it through Go but also being able to compare this language to C. C has been around much longer compared to GO and it definitely shows. From doing research and reading around it sounds like Go is consistently picking up users and an active community with more libaries being created for the language. Go felt very nice and simple to write in and create this. The logic and syntax felt nice and like there was a good flow in it and it's easy to follow. 
+
+While doing this, a major package that was used was "net" while also using the standard "fmt" package and adding a couple others if needed for specific thing.
+
+Commands:
+	1. /nick (Default nickname is set to "anon", "/nick INSERT" to change)
+	2. /join (Room will be created if DNE)
+	3. /rooms (Lists rooms that are created and open
+	4. /msg (Use this to send a message to the room; must do "/msg MESSAGE" everytime to send)
+	5. /quit (Leave room)
+	
+*Project has barebones of it working. Can run the code and server will start. Can have multiple connections through localhost and using telnet. I could have multiple connections on my one laptop and interact with myself. Commands work and allow for nickname to be changed, rooms to be created and joined and for users to communicate with each other.
+
+**Project has messy output code when being ran. The spacings and creating new lines is very poor. Few simple commands available.
